@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+/* Typography */
+
+body{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0;
+}
+p{
+    margin-bottom: 5.5em;
+    line-height: 22px;
+}
+
+h1{
+    text-transform: uppercase;
+}
+a{
+    background-color: hsl(0, 0%, 95%);
+    padding: 0.5em 1.3em;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.container{
+    max-width: 375px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+    /* border: 1px solid red; */
+}
+.card{
+    color: hsl(0, 0%, 95%);
+    padding:2.5em;
+}
+.card-1{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card-2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-3{
+    background-color: hsl(179, 100%, 13%);
+}
+
+
+.card-1 a{color: orange;}
+.card-2 a{color: cyan;}
+.card-3 a{color: darkcyan;}
+
+.card a:hover{
+    color: hsl(0, 0%, 95%);
+    border: 3px solid hsl(0, 0%, 95%);
+}
+
+.card-1 a:hover{background-color:hsl(31, 77%, 52%)}
+.card-2 a:hover{background-color:hsl(184, 100%, 22%)}
+.card-3 a:hover{background-color:hsl(179, 100%, 13%)}
+
+.link{
+    background-color: hsl(179, 100%, 13%);
+    color: #fff;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    p{
+        width: 150px;
+    }
+    .container{
+       /* max-width: 1440px; */
+       width: 1440px;
+       margin: 0 auto;
+       margin-bottom: 1.5em;
+       margin-top: 1.5em;
+       display: flex;
+       justify-content: center;
+       /* border: 1px solid red; */
+    }
+  }
